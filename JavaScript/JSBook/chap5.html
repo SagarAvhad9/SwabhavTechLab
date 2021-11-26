@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSBook chap5</title>
+</head>
+
+<body>
+    <script>
+        //for loop-->
+
+        var count = 10;
+        document.writeln("<br>for loop<br>");
+        function saySomething() {
+            document.writeln("hello!");
+        }
+        for (var i = 0; i < count; i++) {
+            saySomething();
+        }
+        document.writeln("<br>");
+        for (var i = 0; i < 100; i++) {
+            document.writeln(i);
+            if (i == 45) {
+                break;
+            }
+        }
+
+        //while loop-->
+        document.writeln("<br>while loop<br>")
+        var count = 0;
+        
+        while (count < 10) {
+            document.writeln("looping away!");
+            count++;
+        }
+
+        //do while loop-->
+        document.writeln("<br>do while loop<br>")
+        var count = 0;
+
+        do {
+            count++;
+            document.writeln("do something");
+        } while (count < 10);
+
+    </script>
+</body>
+
+</html>

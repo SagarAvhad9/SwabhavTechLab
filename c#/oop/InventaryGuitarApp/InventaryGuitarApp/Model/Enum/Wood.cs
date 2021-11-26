@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InventaryGuitarApp.Model.Enum
+{
+    public enum Wood
+    {
+        INDIAN_ROSEWOOD,
+        BRAZILIAN_ROSEWOOD,
+        MAHOGONY,
+        COCOBOLO,
+        CEDAR,
+        ANDRIONDAK,
+        ALDER,
+        SITKA  
+    }
+}

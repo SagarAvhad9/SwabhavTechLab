@@ -1,0 +1,10 @@
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\bin\Debug\ShoppingCartClientApp.exe.config
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\bin\Debug\ShoppingCartClientApp.exe
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\bin\Debug\ShoppingCartClientApp.pdb
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\obj\Debug\ShoppingCartClientApp.csproj.AssemblyReference.cache
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\obj\Debug\ShoppingCartClientApp.csproj.CoreCompileInputs.cache
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\obj\Debug\ShoppingCartClientApp.exe
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\obj\Debug\ShoppingCartClientApp.pdb
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\bin\Debug\FancyItemsExternalLib.dll
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\bin\Debug\FancyItemsExternalLib.pdb
+F:\swabhavtech\c#\OOAD\AdapterPatternSln\ShoppingCartClientApp\obj\Debug\ShoppingCartClientApp.csproj.CopyComplete

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SerializationApp.SerializationTest">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>SerializationTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerializationApp.Model.Serialization">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIIAAAAAAAAAAAAgAAAQEAAgAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Model\Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerializationApp.Model.DataSerialized">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\DataSerialized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
