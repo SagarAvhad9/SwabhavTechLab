@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="range" min="20" max="100" value="0" class="slider" id="myRange">
+    <p>Value: <span id="demo"></span></p>
+    <canvas id="myCanvas" width="5000" height="660" style="border:1px solid #000000;">
+    </canvas>
+    </div>
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+
+        slider.oninput = function () {
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var x = 100, y = 50;
+            for (var i = 0; i < slider.value; i++) {
+                ctx.beginPath();
+                ctx.arc(x + i * 35, y, 15, 0, 2 * Math.PI);
+                ctx.stroke();
+            }
+            output.innerHTML = this.value;
+        }
+    </script>
+
+
+
+</body>
+
+</html>

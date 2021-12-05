@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function doTask(no){
+            return new Promise(function(fnresolve,fnreject){
+                console.log("inside promise method");
+                var result=Math.random()*no;
+                console.log(result);
+                if(result>5){
+                    fnresolve({msg:"success",data:result})
+                }
+                else{
+                    fnreject({msg:"error happened"})
+                }
+            })
+        }
+        doTask(10)
+        .then(function(r){
+            console.log(r);
+            return r.data
+        }).then(function(data){
+            console.log("inside second then method");
+            console.log(data);
+        }).catch(function(error){
+            console.log(error);
+        })
+        console.log("end of the program");
+    </script>
+</body>
+</html>

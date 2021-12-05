@@ -1,0 +1,12 @@
+<sw-header></sw-header>
+
+<div *ngIf ="randomValue>.5;else noDataBlock">
+  <h1>{{message  | uppercase}}</h1>
+  <h2>{{22/7 | number:'1.3-3'}}</h2>
+  <h3>{{today}}</h3>
+  
+</div>
+<ng-template #noDataBlock>
+  no data {{randomValue}}
+</ng-template>
+<sw-footer></sw-footer>
